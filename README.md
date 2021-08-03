@@ -1,4 +1,4 @@
-# exceltricks
+# Excel Tricks
 
 My commonly used Excel formulas and tricks
 
