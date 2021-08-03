@@ -28,7 +28,7 @@ My commonly used Excel formulas and tricks
 =CONCATENATE("10/",MID(A2,9,2),"/2014")
 ```
 
-#### mConvert the format "2014-Dec-01 5:00:54 AM" to "12/01/2014"
+#### Convert the format "2014-Dec-01 5:00:54 AM" to "12/01/2014"
 
 - Perform a Text-to-Columns on the cells to split the date from the time information (assuming you don't need time)
 - You will be left with this:
