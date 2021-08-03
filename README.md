@@ -3,7 +3,7 @@
 My commonly used Excel and Google Sheets formulas and tricks
 
 ## Content
-- [exceltricks](#exceltricks)
+- [Excel Tricks](#Excel-Tricks)
   - [Content](#content)
     - [Time and Date Formulas](#time-and-date-formulas)
       - [Convert the format "Thu Oct 02 12:03:39 GMT 2014" to "10/02/2014"](#convert-the-format-thu-oct-02-120339-gmt-2014-to-10022014)
