@@ -1,6 +1,6 @@
 # Excel Tricks
 
-My commonly used Excel formulas and tricks
+My commonly used Excel and Google Sheets formulas and tricks
 
 ## Content
 - [exceltricks](#exceltricks)
