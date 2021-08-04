@@ -9,6 +9,8 @@ My commonly used Excel and Google Sheets formulas and tricks
       - [Convert the format "Thu Oct 02 12:03:39 GMT 2014" to "10/02/2014"](#convert-the-format-thu-oct-02-120339-gmt-2014-to-10022014)
       - [Convert the format "2014-Dec-01 5:00:54 AM" to "12/01/2014"](#convert-the-format-2014-dec-01-50054-am-to-12012014)
       - [Convert EPOCH format (Unix time) to Gregorian format (mm/dd/yyyy hh:mm:ss)](#convert-epoch-format-unix-time-to-gregorian-format-mmddyyyy-hhmmss)
+      - [Convert a date and time field to ISO 8601 timestamp format](#convert-a-date-and-time-field-to-iso-8601-timestamp-format)
+      - [Convert a ISO 8601 timestamp format field to date and time](#convert-a-iso-8601-timestamp-format-field-to-date-and-time)
     - [Number Manipulation](#number-manipulation)
       - [Convert $20,000,000.00 to $20.0M](#convert-2000000000-to-200m)
     - [Text Manipulation](#text-manipulation)
@@ -61,6 +63,22 @@ Unix time is the number of seconds since January 1, 1970.
 ```
 
 Turns 1424783916.796051000 = 02/24/2015 13:18:37
+
+#### Convert a date and time field to [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) timestamp format
+
+Example: 8/3/21 12:12:12 PM to 2021-08-03T12:12:12
+
+``` bash
+=TEXT(A1,"yyyy-mm-ddThh:MM:ss")
+```
+
+#### Convert a [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) timestamp format field to date and time
+
+Example: 2021-08-03T12:12:12 to 8/3/21 12:12:12 PM
+
+``` bash
+=DATEVALUE(MID(A1,1,10))+TIMEVALUE(MID(A1,12,8))
+```
 
 ### Number Manipulation
 
