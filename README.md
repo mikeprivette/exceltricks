@@ -3,12 +3,14 @@
 My commonly used Excel and Google Sheets formulas and tricks
 
 ## Content
-- [Excel Tricks](#Excel-Tricks)
+- [Excel Tricks](#excel-tricks)
   - [Content](#content)
     - [Time and Date Formulas](#time-and-date-formulas)
       - [Convert the format "Thu Oct 02 12:03:39 GMT 2014" to "10/02/2014"](#convert-the-format-thu-oct-02-120339-gmt-2014-to-10022014)
-      - [mConvert the format "2014-Dec-01 5:00:54 AM" to "12/01/2014"](#mconvert-the-format-2014-dec-01-50054-am-to-12012014)
+      - [Convert the format "2014-Dec-01 5:00:54 AM" to "12/01/2014"](#convert-the-format-2014-dec-01-50054-am-to-12012014)
       - [Convert EPOCH format (Unix time) to Gregorian format (mm/dd/yyyy hh:mm:ss)](#convert-epoch-format-unix-time-to-gregorian-format-mmddyyyy-hhmmss)
+    - [Number Manipulation](#number-manipulation)
+      - [Convert $20,000,000.00 to $20.0M](#convert-2000000000-to-200m)
     - [Text Manipulation](#text-manipulation)
       - [Find what is to the RIGHT of the last instances of a specific character](#find-what-is-to-the-right-of-the-last-instances-of-a-specific-character)
       - [Find if cell contains a space](#find-if-cell-contains-a-space)
