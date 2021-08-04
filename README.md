@@ -72,7 +72,7 @@ Find to the right of the last "\" character
 =TRIM(RIGHT(SUBSTITUTE(A1,"\",REPT(" ",LEN(A1))),LEN(A1)))
 ```
 
-To find what's to the LEFT, just replace "RIGHT" with "LEFT in the formula
+To find what's to the LEFT, just replace "RIGHT" with "LEFT" in the formula
 
 Example = "First_Name Last_Name" (where you just want "First_Name")
 
