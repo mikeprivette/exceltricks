@@ -60,6 +60,16 @@ Unix time is the number of seconds since January 1, 1970.
 
 Turns 1424783916.796051000 = 02/24/2015 13:18:37
 
+### Number Manipulation
+
+#### Convert $20,000,000.00 to $20.0M
+
+Select the cell you want to convert and add the following custom number format
+
+``` bash
+$[>=999950]0.0,,"M";[<=-999950]0.0,,"M";0.0,"K"
+```
+
 ### Text Manipulation
 
 #### Find what is to the RIGHT of the last instances of a specific character
