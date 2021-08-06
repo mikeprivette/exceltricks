@@ -99,7 +99,7 @@ Example = Drive:\Folder\SubFolder\Filename.ext (where you just want to find File
 Find to the right of the last "\" character
 
 ``` bash
-=TRIM(RIGHT(SUBSTITUTE(A1,"\",REPT(" ",LEN(A1))),LEN(A1)))
+=REGEXEXTRACT(A1,"\\([^\\]*$)")
 ```
 
 To find what's to the LEFT, just replace "RIGHT" with "LEFT" in the formula
@@ -107,7 +107,7 @@ To find what's to the LEFT, just replace "RIGHT" with "LEFT" in the formula
 Example = "First_Name Last_Name" (where you just want "First_Name")
 
 ``` bash
-=TRIM(LEFT(SUBSTITUTE(A2," ",REPT(" ",LEN(A2))),LEN(A2)))
+=REGEXEXTRACT(A1,"(^[^ ]*) ")
 ```
 
 #### Find if cell contains a space
@@ -119,7 +119,7 @@ Example = "First_Name Last_Name" (where you just want "First_Name")
 #### Extract text between two characters in a cell
 
 ``` bash
-=MID(A2,SEARCH("vip.ce.",A2)+7,SEARCH(".http",A2)-SEARCH("vip.ce.",A2)-7)
+=REGEXEXTRACT(A1,"vip\.ce\.(.*)\.http")
 ```
 
 Original = vip.ce.api-prd.website.com.http
