@@ -134,9 +134,13 @@ After = api-prd.website.com
 
 #### VLookUp and Replace #N/A with some text
 
+This works in both Excel and Google Sheets
+
 ``` bash
 =IF(ISNA(VLOOKUP(A2,<Table Range>,1,FALSE)),"Thing not found",VLOOKUP(A2,<Table Range>,1,FALSE))
 ```
+
+```XLOOKUP``` already has built in error handling for the ```#N/A``` messages, but only works in Excel at the date of publishing this.
 
 #### Search for text within a cell and label it as X
 
