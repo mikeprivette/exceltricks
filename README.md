@@ -3,6 +3,7 @@
 My commonly used Excel and Google Sheets formulas and tricks
 
 ## Content
+
 - [Excel Tricks](#excel-tricks)
   - [Content](#content)
     - [Time and Date Formulas](#time-and-date-formulas)
