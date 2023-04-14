@@ -81,6 +81,20 @@ Example: 2021-08-03T12:12:12 to 8/3/21 12:12:12 PM
 =DATEVALUE(MID(A1,1,10))+TIMEVALUE(MID(A1,12,8))
 ```
 
+#### Get the quarter of the year from a date
+
+Example: "Monday, July 3, 2023" to "2"
+
+``` bash
+=ROUNDUP(MONTH(A2)/3,0)
+```
+
+Add a "Q" to the quarter number
+
+``` bash
+=CONCAT("Q",ROUNDUP(MONTH(A2)/3,0)
+```
+
 ### Number Manipulation
 
 #### Convert $20,000,000.00 to $20.0M
