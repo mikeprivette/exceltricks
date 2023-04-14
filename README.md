@@ -12,6 +12,7 @@ My commonly used Excel and Google Sheets formulas and tricks
       - [Convert EPOCH format (Unix time) to Gregorian format (mm/dd/yyyy hh:mm:ss)](#convert-epoch-format-unix-time-to-gregorian-format-mmddyyyy-hhmmss)
       - [Convert a date and time field to ISO 8601 timestamp format](#convert-a-date-and-time-field-to-iso-8601-timestamp-format)
       - [Convert a ISO 8601 timestamp format field to date and time](#convert-a-iso-8601-timestamp-format-field-to-date-and-time)
+      - [Get the quarter of the year from a date](#get-the-quarter-of-the-year-from-a-date)
     - [Number Manipulation](#number-manipulation)
       - [Convert $20,000,000.00 to $20.0M](#convert-2000000000-to-200m)
     - [Text Manipulation](#text-manipulation)
