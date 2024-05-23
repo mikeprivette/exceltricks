@@ -108,6 +108,12 @@ $[>=999950]0.0,,"M";[<=-999950]0.0,,"M";0.0,"K"
 
 ### Text Manipulation
 
+#### Extract only the domain name from an email address
+
+``` bash
+=RIGHT(A1,LEN(A1)-FIND("@",A1))
+```
+
 #### Find what is to the RIGHT of the last instances of a specific character
 
 Example = Drive:\Folder\SubFolder\Filename.ext (where you just want to find Filename.ext)
