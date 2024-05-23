@@ -16,6 +16,7 @@ My commonly used Excel and Google Sheets formulas and tricks
     - [Number Manipulation](#number-manipulation)
       - [Convert $20,000,000.00 to $20.0M](#convert-2000000000-to-200m)
     - [Text Manipulation](#text-manipulation)
+      - [Extract the domain name from an email address ](#extract-only-the-domain-name-from-an-email-address)
       - [Find what is to the RIGHT of the last instances of a specific character](#find-what-is-to-the-right-of-the-last-instances-of-a-specific-character)
       - [Find if cell contains a space](#find-if-cell-contains-a-space)
       - [Extract text between two characters in a cell](#extract-text-between-two-characters-in-a-cell)
